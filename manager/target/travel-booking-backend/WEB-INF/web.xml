@@ -1,0 +1,17 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         version="4.0">
+
+    <display-name>Travel Booking Backend</display-name>
+
+    <!-- Example Servlet Mapping -->
+    <servlet>
+        <servlet-name>CustomerServlet</servlet-name>
+        <servlet-class>servlet.CustomerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CustomerServlet</servlet-name>
+        <url-pattern>/api/customers</url-pattern>
+    </servlet-mapping>
+
+</web-app>
